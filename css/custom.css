@@ -3,7 +3,7 @@
   --color-bg: #fceb94; /* page background /*
 
   /* Header */
-  --color-head-bg: #ff4b00;
+  --color-head-bg: #faa542;
 
   /* Logotype */
   --color-logotype-bg: #000;
@@ -11,7 +11,7 @@
   --font-logotype-size: 2rem;
 
   /* Global menu */
-  --color-menu-bg: #6f90eb;
+  --color-menu-bg: #eb98c2;
   /* Links */
   --color-link-bg: #fffae2;
   --color-link-hover: #fffae2; /* used */
@@ -28,22 +28,22 @@
 
   /* Tekst */
   --color-text: #000;
-  --color-text-inverted: #cdccc4;
+  --color-text-inverted: #fffae2;
 
   /*  Marginer */
-  --margin-head-bottom: 80px;
+  --margin-head-bottom: 40px;
 
   /* Borders */
   --border-radius: 5px;
 
   /* Cards */
   --color-card-bg: #fff;
-  --color-cta-card-bg: #ff4b00;
+  --color-cta-card-bg: #eb98c2;
   /* news-cards */
   --color-news-bg: #fffae2;
   --color-news-bg-inverted: #dbe2f5;
-  --color-cta-newscard-bg: #ffa680;
-  --color-cta-newscard-bg-inverted: #6f90eb;
+  --color-cta-newscard-bg: #faa542;
+  --color-cta-newscard-bg-inverted: #faa542;
 
   /* Fonts */
   --font-family-sans: "Rubik", ui-sans-serif;
@@ -63,7 +63,7 @@
   --form-submit-size: 1rem;
 
   /* Infographics */
-  --color-info-bg: #676161;
-  --color-infobox-1-bg: #;
-  --color-infobox-2-bg: #;
+  --color-info-bg: #fffae2;
+  --color-infobox-1-bg: #fceb94;
+  --color-infobox-2-bg: #eb98c2;
 }
