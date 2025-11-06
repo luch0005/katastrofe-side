@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/burger.css" />
     <link rel="stylesheet" href="css/cards.css" />
-    <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/forms.css" />
     <link rel="icon" type="image/png" href="img/fav.png" />
     <title>Emergency Site</title>
   </head>
@@ -22,7 +22,7 @@
           <a href="index.html"> LOGO-TYPE </a>
         </div>
         <ul class="menu">
-          <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
+          <li><a class="menuItem" href="instruction.html">Hamster</a></li>
           <li><a class="menuItem" href="register.html">Indberet</a></li>
         </ul>
         <button class="burger">
@@ -37,55 +37,85 @@
       <h1>INDBERET</h1>
       <section id="form-section">
         <article id="form-info">
-          <h2>Overskrift</h2>
-          <p>Tekst</p>
+          <h2>
+            Har du set et hamster der har gjort noget usædvanligt? Udfyld
+            venligst formularen:
+          </h2>
         </article>
-        <form id="webform"></form>
-        <label for="first_name">Fornavn</label>
-        <input type="text" id="first_name" />
+        <form id="webform">
+          <fieldset>
+            <legend>Kontaktoplysninger</legend>
+            <div class="form-group">
+              <label for="first_name">Fornavn</label>
+              <input required type="text" id="first_name" />
+              <p class="error-message" hidden>Please enter a value</p>
 
-        <label for="last_name">Efternavn</label>
-        <input type="text" id="last_name" />
+              <label for="last_name">Efternavn</label>
+              <input required type="text" id="last_name" />
+              <p class="error-message" hidden>Please enter a value</p>
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input required type="email" id="mail" />
+              <p class="error-message" hidden>Please enter a value</p>
+            </div>
+            <div class="form-group">
+              <label for="tlf">Telefonnummer</label>
+              <input required type="tel" id="tlf" />
+              <p class="error-message" hidden>Please enter a value</p>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>
+              Hvad har du været vidne til at et hamster har gjort?
+            </legend>
+            <div class="checkbox-group">
+              <input type="checkbox" id="begaaroeveri" />
+              <label for="begaaroeveri"
+                >Jeg har set et hamster begå røveri i en forretning eller et
+                andet sted/et hamster har begået røveri i min butik/der hvor jeg
+                arbejder</label
+              >
+              <input type="checkbox" id="smugle" />
+              <label for="smugle"
+                >Jeg har set et hamster smugle ting/stoffer med ind/ud af
+                landet</label
+              >
+              <input type="checkbox" id="overfald" />
+              <label for="overfald"
+                >Jeg har været vidne til et hamster der har overfaldet et andet
+                væsen/menneske</label
+              >
+              <input type="checkbox" id="offeroverfald" />
+              <label for="offeroverfald"
+                >Jeg har været offer til et hamster overfald</label
+              >
+              <input type="checkbox" id="mord" />
+              <label for="mord"
+                >Jeg har været vidne til et mord begået af et Hamster</label
+              >
+            </div>
 
-        <label for="mail">E-mail</label>
-        <input type="mail" id="mail" />
+            <label>Uddyb yderligere</label>
+            <input type="text" />
+          </fieldset>
+          <br />
+          <div class="checkbox-group">
+            <input type="checkbox" id="accept_terms" />
+            <label for="accept_terms"
+              >Accepter venligst vores terms & conditions</label
+            >
+          </div>
 
-        <label for="tlf">Telefonnummer</label>
-        <input type="tel" id="tlf" />
-
-        <label>Hvad har du været vidne til at et hamster har gjort?</label>
-        <input type="checkbox" id="listeovercrimes" />
-        <label for="listeovercrimes"
-          >Jeg har set et hamster begå røveri i en forretning eller et andet
-          sted</label
-        >
-        <input type="checkbox" id="listeovercrimes" />
-        <label for="listeovercrimes"
-          >Jeg har set et hamster smugle ting med ind/ud af landet</label
-        >
-        <input type="checkbox" id="listeovercrimes" />
-        <label for="listeovercrimes"
-          >Jeg har været vidne til et mord begået af et Hamster</label
-        >
-        <input type="checkbox" id="listeovercrimes" />
-        <label
-          >Jeg har været offer til at et hamster har gjort en af de ovenstående
-          ting</label
-        >
-        <label>Uddyb yderligere</label>
-        <input type="text" />
-        <br />
-        <input type="checkbox" id="accept_terms" />
-        <label for="accept_terms">Indsend her</label>
-
-        <button type="submit">Sign up here!</button>
+          <button type="submit">Sign up here!</button>
+        </form>
       </section>
-      <section id="form-summary">
+      <!-- <section id="form-summary">
         <h2>Summary</h2>
         <article>
           <p class="placeholder">Opsummering</p>
         </article>
-      </section>
+      </section> -->
     </main>
     <footer>
       <nav class="some">

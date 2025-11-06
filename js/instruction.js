@@ -15,11 +15,15 @@ document.querySelector("#kloer").addEventListener("click", kloerF);
 function kloerF() {
   console.log("kloerF er trykket paa");
   document.querySelector(".info-text h2").textContent = "Klør";
+  document.querySelector(".info-text p").textContent =
+    "Hamsteret bruger sine kløer som sit våben. De er skarpe som knive, ligeså vel som de bruger deres kløer til at forsvare sig selv (læs: gøre skade på andre) er de også gode til at tælle en stak penge lynhurtigt.";
 }
 
-document.querySelector("#mave").addEventListener("click", maveF);
+document.querySelector("#krop").addEventListener("click", kropF);
 
-function maveF() {
-  console.log("maveF er trykket paa");
-  document.querySelector(".info-text h2").textContent = "Mave";
+function kropF() {
+  console.log("kropF er trykket paa");
+  document.querySelector(".info-text h2").textContent = "Kroppen";
+  document.querySelector(".info-text p").textContent =
+    "De små gnavere har den helt perfekte størrelse til at gå under radaren og snige sig ind gennem de mindste steder. På trods af den lille krop er der massere plads til udvidelse, hamsteret bruger starten af livet på at lære at udvide kroppen så meget som muligt så den er klar til de store smugle og røveri missioner.";
 }
