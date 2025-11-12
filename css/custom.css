@@ -14,7 +14,7 @@
   --color-menu-bg: #eb98c2;
   /* Links */
   --color-link-bg: #fceb94;
-  --color-link-hover: #fceb94; /* used */
+  --color-link-hover: #fceb9465; /* used */
   --color-link-active: #fceb94; /* used */
   --border-radius-links: 37px;
 
@@ -34,14 +34,14 @@
   --margin-head-bottom: 40px;
 
   /* Borders */
-  --border-radius: 5px;
+  --border-radius: 30px;
 
   /* Cards */
   --color-card-bg: #fff;
   --color-cta-card-bg: #eb98c2;
   /* news-cards */
   --color-news-bg: #fffae2;
-  --color-news-bg-inverted: #dbe2f5;
+  --color-news-bg-inverted: #fdc380;
   --color-cta-newscard-bg: #faa542;
   --color-cta-newscard-bg-inverted: #faa542;
 

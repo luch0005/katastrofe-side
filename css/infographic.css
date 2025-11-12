@@ -40,3 +40,44 @@
 .info-box:nth-of-type(2n) {
   background-color: var(--color-infobox-2-bg);
 }
+
+.info-graphic svg {
+  width: 100%;
+  height: auto;
+}
+/*Sætter min button id i midten*/
+#mund,
+#kloer,
+#krop {
+  display: inline-block;
+  margin-right: 1rem;
+  vertical-align: top;
+  width: 30%;
+  margin-bottom: 2rem;
+}
+
+/*Gør mine knapper flotte*/
+#mund,
+#kloer,
+#krop {
+  padding: 10px 20px;
+  background-color: #fceb94;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#mund:hover,
+#kloer:hover,
+#krop:hover {
+  background-color: #fdc380;
+  transform: translate(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cta_btn {
+  display: flex;
+  justify-content: space-between;
+}

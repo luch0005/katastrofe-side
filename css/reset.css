@@ -26,16 +26,16 @@ li {
   text-wrap: pretty;
 }
 
+/* Hvilket billede skal ligge her???
 img,
 svg {
   display: block;
   width: 100%;
   height: auto;
-}
-
-label {
+}label {
   display: block;
 }
+*/
 
 input,
 button,
