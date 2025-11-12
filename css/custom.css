@@ -1,21 +1,21 @@
 :root {
   /* Colours */
-  --color-bg: #fceb94; /* page background /*
+  --color-bg: #fff4e3; /* page background /*
 
   /* Header */
   --color-head-bg: #faa542;
 
   /* Logotype */
   --color-logotype-bg: #000;
-  --color-text-logotype: #fffae2;
+  --color-text-logotype: #fceb94;
   --font-logotype-size: 2rem;
 
   /* Global menu */
   --color-menu-bg: #eb98c2;
   /* Links */
-  --color-link-bg: #fffae2;
-  --color-link-hover: #fffae2; /* used */
-  --color-link-active: #fffae2; /* used */
+  --color-link-bg: #fceb94;
+  --color-link-hover: #fceb94; /* used */
+  --color-link-active: #fceb94; /* used */
   --border-radius-links: 37px;
 
   /* Headlines og rubrik */
