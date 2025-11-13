@@ -86,12 +86,17 @@ form {
   color: red;
 }
 
-.checkbox-group {
-  vertical-align: middle;
-  margin-right: 6px;
+.checkbox-item {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  margin-bottom: 10px;
 }
-
-label {
-  display: inline-block;
-  margin-bottom: 8px;
+.checkbox-item input[type="checkbox"] {
+  grid-area: 1/1;
+  align-self: start;
+  margin-top: 4px;
+}
+.checkbox-item label {
+  grid-area: 1/2;
+  align-self: start;
 }
