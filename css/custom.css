@@ -1,21 +1,21 @@
 :root {
   /* Colours */
-  --color-bg: #fff4e3; /* page background /*
+  --color-bg: light-dark(#fff4e3, #727171); /* page background /*
 
   /* Header */
-  --color-head-bg: #faa542;
+  --color-head-bg: light-dark(#faa542, #b78853);
 
   /* Logotype */
-  --color-logotype-bg: #000;
-  --color-text-logotype: #fceb94;
+  --color-logotype-bg: light-dark(#fff4e3, #727171);
+  --color-text-logotype: light-dark(#fceb94, #38362b);
   --font-logotype-size: 2rem;
 
   /* Global menu */
-  --color-menu-bg: #eb98c2;
+  --color-menu-bg: light-dark(#eb98c2, #98647d);
   /* Links */
-  --color-link-bg: #fceb94;
-  --color-link-hover: #fceb9465; /* used */
-  --color-link-active: #fceb94; /* used */
+  --color-link-bg: light-dark(#fceb94, #b59349);
+  --color-link-hover: light-dark#c2b36765; /* used */
+  --color-link-active: light-dark#fceb94; /* used */
   --border-radius-links: 37px;
 
   /* Headlines og rubrik */
@@ -23,12 +23,12 @@
   --font-sub1-size: 48px;
   --font-h2-size: 36px;
   --font-h3-size: 32px;
-  --color-headline-bg: #000;
-  --color-headline-text-page: #fffae2;
+  --color-headline-bg: light-dark(#000, #2c2b2b);
+  --color-headline-text-page: light-dark(#fffae2, #c4c4c4);
 
   /* Tekst */
-  --color-text: #000;
-  --color-text-inverted: #fffae2;
+  --color-text: light-dark(#000, #c4c4c4);
+  --color-text-inverted: light-dark(#fffae2, #c4c4c4);
 
   /*  Marginer */
   --margin-head-bottom: 40px;
@@ -37,13 +37,13 @@
   --border-radius: 30px;
 
   /* Cards */
-  --color-card-bg: #fff;
-  --color-cta-card-bg: #eb98c2;
+  --color-card-bg: light-dark(#fff, #4d4d4d);
+  --color-cta-card-bg: light-dark(#eb98c2, #98647d);
   /* news-cards */
-  --color-news-bg: #fffae2;
-  --color-news-bg-inverted: #fdc380;
-  --color-cta-newscard-bg: #faa542;
-  --color-cta-newscard-bg-inverted: #faa542;
+  --color-news-bg: light-dark(#fffae2, #8b8b8b);
+  --color-news-bg-inverted: light-dark(#fdc380, #b78853);
+  --color-cta-newscard-bg: light-dark(#fdc380, #b78853);
+  --color-cta-newscard-bg-inverted: light-dark(#faa542, #d8903e);
 
   /* Fonts */
   --font-family-sans: "Rubik", ui-sans-serif;
@@ -63,7 +63,7 @@
   --form-submit-size: 1rem;
 
   /* Infographics */
-  --color-info-bg: #fffae2;
-  --color-infobox-1-bg: #fceb94;
-  --color-infobox-2-bg: #eb98c2;
+  --color-info-bg: light-dark#fffae2;
+  --color-infobox-1-bg: light-dark#fceb94;
+  --color-infobox-2-bg: light-dark#eb98c2;
 }

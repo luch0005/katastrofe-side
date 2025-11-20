@@ -1,7 +1,12 @@
 html {
+  color-scheme: light;
   font-family: var(--font-family-sans);
   color: var(--color-text);
   background-color: var(--color-bg);
+}
+
+html.dark {
+  color-scheme: dark;
 }
 
 header {
@@ -106,6 +111,7 @@ nav a {
   font-weight: var(--font-weight-medium);
   width: max-content;
   margin-left: 1rem;
+  margin-top: 1rem;
 }
 
 /* Global menu */
@@ -162,4 +168,24 @@ footer a {
 [popover]::backdrop {
   backdrop-filter: blur(8px);
   background-color: rgba(0, 0, 0, 0.298);
+}
+
+#daily img {
+  width: 300px;
+}
+#breaking img {
+  width: 300px;
+}
+
+#main-disclamer img {
+  width: 100px;
+}
+
+#logotype-wrapper svg {
+  width: 60px;
+  height: 100%;
+}
+
+#toggle {
+  color: light-dark(#fffae2, #515151);
 }
